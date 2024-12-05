@@ -61,19 +61,3 @@ section {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    position: relative;
-}
-
-nav a:not(:last-child)::after {
-    content: "";
-    display: inline-block;
-    height: 1em;
-    width: 1px;
-    background-color: white;
-    margin-left: 15px;
-    vertical-align: middle;
-}
