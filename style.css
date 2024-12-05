@@ -65,7 +65,7 @@ nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
-    position: relative; /* Nécessaire pour les bordures */
+    position: relative; /
 }
 
 nav a:not(:last-child)::after {
