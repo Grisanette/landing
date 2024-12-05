@@ -2,20 +2,38 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
+
 header {
-    background: #4CAF50;
+    background: #004080;
     color: white;
     padding: 10px 20px;
+    text-align: center;
 }
+
 nav a {
-    margin: 0 15px;
     color: white;
+    margin: 0 15px;
     text-decoration: none;
 }
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
+
+section {
+    margin-bottom: 20px;
+}
+
+#hero h2 {
+    margin: 0;
+}
+
 footer {
     background: #333;
     color: white;
